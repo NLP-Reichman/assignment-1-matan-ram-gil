@@ -1,0 +1,32 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_en": 17.76253760603987,
+    "en_fr": 65.26835344867037,
+    "en_tl": 73.13838126994969,
+    "en_nl": 73.97448774422567
+  },
+  "test_match": {
+    "en_en_3": 17.76253760603987,
+    "en_tl_3": 73.13838126994969,
+    "en_nl_3": 73.97448774422567
+  },
+  "test_generate": {
+    "english_1_gram": "I\ud83e\udd13\u02b0\ud83c\udffe\u00ed\ud83d\udce1\u2935\uc5d0\ud83d\ude45\u24e2\uc988\u248d\u884c\ud83d\ude37\u300b\u00d5\ud83c\udf1e\ud83d\udc81\ud83d\udd04\ub178Q",
+    "english_2_gram": "I ame t t t t t t t t t ",
+    "english_3_gram": "I ame the the the the th",
+    "english_4_gram": "I Love the so much 24th th",
+    "spanish_2_gram": "Soy e e e e e e e e e e",
+    "spanish_3_gram": "Soy a de la de la de la",
+    "french_2_gram": "Je suis de de de de de de d",
+    "french_3_gram": "Je suis de de de de de de d"
+  }
+}
